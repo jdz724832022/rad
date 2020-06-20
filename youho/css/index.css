@@ -1,0 +1,166 @@
+.swiper1{
+	width: 100%;
+	height: 450px;
+}	
+.swiper-container {
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	direction: ltr;
+	backface-visibility: hidden;
+	z-index: 1;
+}
+.lunbo1 .swiper-slide img{
+	position: relative;
+	left: -250px;
+}
+ .swiper-container{
+   
+    --swiper-navigation-color: white;/* 单独设置按钮颜色 */
+ }
+ .intell{
+	 height: 450px;
+ }
+.titleIn{
+	margin-top: 30px;
+	margin-bottom: 15px;
+	 height: 40px;
+	 line-height: 40px;
+	 position: relative;
+	 display: flex;
+ }
+ 
+ 
+ .titleIn span{
+	 float: left;
+	 margin-left: 40px;
+	font-size: 22px;
+	font-weight: normal;
+	color: #262626;
+	margin-right: 20px;
+ }
+.titleIn p{
+	font-size: 16px;
+	color: #8c8c8c;
+}
+.titleIn div{
+	margin-left: 550px;
+}
+.anIn{
+	width: 1263px;
+	height: 500px;
+}
+.anIn div{
+	float: left;
+	margin-left: 42px;
+}
+.anIn div:hover{
+	animation: anime 0.7s ;
+}
+@keyframes anime{
+	from{transform:translate(0,0)}
+	to{transform:translate(0,-8px)}
+}
+
+.list ul li{
+	width: 240px;
+	height: 330px;
+	padding: 20px;
+	text-align: center;
+	float: left;
+	background: #fff;
+	margin-left: 30px;
+	margin-bottom: 20px;
+	position: relative;
+	top: 0;
+	border-radius: 2px;
+}
+.list ul li img{
+	width: 240px;
+	height: 240px;
+}
+.fr{
+	display: block;
+	font-size: 16px;
+	color: #262626;
+	height: 36px;
+	line-height: 36px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.se{
+	display: block;
+	font-size: 14px;
+	color: #8c8c8c;
+	margin-bottom: 14px;
+	height: 20px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.price{
+	color: #ea413c;
+	font-size: 14px;
+}
+.advent{
+	width: 1180px;
+	margin: 0 auto;
+}
+.lunb2{
+	width: 1180px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.lunb2 .swiper-container{
+	width: 1180px;
+	margin: 0 auto;
+}
+.lunb2 .titleIn{
+	margin-left: -40px;
+}
+.product{
+	width: 1180px;
+	height: 380px;
+	margin: 0 auto;
+}
+.product .titleIn{
+	margin-left: -40px;
+}
+.product ul li{
+	width: 280px;
+	height: 200px;
+	float: left;
+	background: #fff;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	position: relative;
+	transition: 0.3s;
+	top: 0;
+	border-radius: 2px;
+}
+.info{
+	background: #ffffff;
+	text-align: center;
+	padding: 19px 20px 0;
+	height: 58px;
+}
+.product ul li img{
+	width: 280px;
+	height: 200px;
+}
+.product ul li span{
+	font-size: 16px;
+	color: #262626;
+	margin-bottom: 8px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap
+}
+.product ul li div{
+	font-size: 14px;
+	color: #8c8c8c;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
